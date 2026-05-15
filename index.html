@@ -1,278 +1,332 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-     <link rel="stylesheet" href="style.css">
-     <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Portfolio</title>
 </head>
+
 <body>
 
-    <div class="bg-container">
-        <div class="container-fluid p-0 m-0">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark nav-bg sticky-top py-3">
+        <div class="container">
 
-                 <!--Nav Bar-->
-                 <nav class="sticky-top navbar navbar-expand-lg  navbar-dark  nav-bg p-3">
-                    <div class="container-fluid">
-                        <a class="navbar-brand nav-head text-white" href="#">Portfolio</a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="ms-auto nav-style navbar-nav">
-                            <a class="roj ms-4 nav-link text-white" aria-current="page" href="#home">HOME</a>
-                            <a class="roj ms-4 nav-link text-white" href="#about">ABOUT</a>
-                            <a class="roj ms-4 nav-link text-white" href="#skill">SKILLS</a>
-                            <a class="roj ms-4 nav-link text-white" href="#">PROJECTS</a>
-                            <a class="roj ms-4 nav-link text-white" href="#contact">CONTACT</a>
-                        </div>
-                        </div>
-                    </div>
-                 </nav>
-                
+            <a class="navbar-brand nav-logo" href="#">Portfolio</a>
 
-                <!--First Section -->
-                <section id="home">
-  
-                    
-               
-                    
-                    <div class="container">
-                            <div class="row align-items-center">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-                                <div class="col-12 col-md-6">
-                                <div class="first-part ps-5">
-                                 <h1 class="head-one">Pragathe<span class="cut-down">eshwaran</span></h1>                        
-                                 <p class="first-para">Frontend Developer crafting beautiful,<br> performant digital experiences that leave<br> a lasting impression</p>
-                                 <button class="first-button mt-3">VIEW MY WORK</button>
-                                 </div>
-                                </div>
+            <div class="collapse navbar-collapse" id="navbarNav">
 
-                                <div class="col-12 col-md-6">
-                                    <div class="pic">
-                                        <img class="img-fluid" src="https://res.cloudinary.com/dwzbboboh/image/upload/v1773478718/Wrb_le3qkl.png">
-                                    </div>
-                                </div>
-
-                            </div>
-                    </div>
-                    
-
-                
-                </section>
-            
-                 <!--Second Section -->
-                <div class="row">
-                <div class="col-12 pt-0">
-                    <div class="cod">
-                        <div class="marquee-track">
-                            <div>Frontend Development<span class="separator-dot"></span></div>
-                            <div>HTML<span class="separator-dot"></span></div>
-                            <div>CSS<span class="separator-dot"></span></div>
-                            <div>Responsive Design<span class="separator-dot"></span></div>
-                            <div>JAVASCRIPT<span class="separator-dot"></span></div>
-                            <div>PYTHON<span class="separator-dot"></span></div>
-                            <div>Frontend Development<span class="separator-dot"></span></div>
-                            <div>HTML<span class="separator-dot"></span></div>
-                            <div>CSS<span class="separator-dot"></span></div>
-                            <div>Responsive Design<span class="separator-dot"></span></div>
-                            <div>JAVASCRIPT<span class="separator-dot"></span></div>
-                            <div>PYTHON<span class="separator-dot"></span></div>
-                            <div>Frontend Development<span class="separator-dot"></span></div>
-                            <div>HTML<span class="separator-dot"></span></div>
-                            <div>CSS<span class="separator-dot"></span></div>
-                            <div>Responsive Design<span class="separator-dot"></span></div>
-                            <div>JAVASCRIPT<span class="separator-dot"></span></div>
-                            <div>PYTHON<span class="separator-dot"></span></div>
-                            <div>Frontend Development<span class="separator-dot"></span></div>
-                            <div>HTML<span class="separator-dot"></span></div>
-                            <div>CSS<span class="separator-dot"></span></div>
-                            <div>Responsive Design<span class="separator-dot"></span></div>
-                            <div>JAVASCRIPT<span class="separator-dot"></span></div>
-                            <div>PYTHON<span class="separator-dot"></span></div>
-                        </div>
-                    </div>
-
-                    <section id="about">
-                    <div class="container py-5">
-                        <div class="row">
-                             <div class="col-12 col-md-6">
-                             <p class="who_about">ABOUT ME</p>
-                             <h1 class="head-one">Who I<span class="cut-down">Am</span></h1>                        
-                             </div>
-
-                             <div class="col-12 col-md-6">
-                                <p class="secont-section-para">
-                                 I'm a passionate <strong>Frontend Developer</strong> with a keen eye for design and a love for turning complex problems into elegant, intuitive interfaces. I believe great software is invisible — it just works, beautifully.
-                                </p>
-                                <p class="pb-3 secont-section-para">
-                                    With a solid foundation in <strong>HTML, CSS, and JavaScript</strong>, I build experiences that are not only visually compelling but performant and accessible. I'm always learning, always building.
-                                </p>
-
-                                <hr class="py-3 line">
-
-                                <div class="degree">
-                                <h2>BACHELOR DEGREE</h2>
-                                <h4>EASA College of Engineering And Technology</h4>
-                                <p>2020 - 2024</p>
-                                </div>
-
-                                <div class="degree">
-                                <h2>HSC</h2>
-                                <h4>CGM Higher Secondary School</h4>
-                                <p>2019 - 2020</p>
-                                </div>
-
-                             </div>
-                        </div>
-                    </div>
-                    </section>
-
-                    
+                <div class="navbar-nav ms-auto text-center">
+                    <a class="nav-link nav-item-custom" href="#home">Home</a>
+                    <a class="nav-link nav-item-custom" href="#about">About</a>
+                    <a class="nav-link nav-item-custom" href="#skills">Skills</a>
+                    <a class="nav-link nav-item-custom" href="#projects">Projects</a>
+                    <a class="nav-link nav-item-custom" href="#contact">Contact</a>
                 </div>
-                </div>
-
-
-                 <!--Third Section -->
-                 <section id="skill">
-                 <div class="third-bg-container py-4">
-                  <div class="container text-white">
-            <div class="row g-1">
-
-                <div class="col-12">
-                    <h3>Skills :</h3>
-                </div>
-
-                <div class="col-6 col-md-2">
-                    <div class="card-con">
-                        <div class="shadow card-con text-center p-3 mt-3">
-                            <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="w-50">
-                            <h5 class="mt-3">HTML</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-2">
-                    <div>
-                        <div class="shadow card-con text-center p-3 mt-3">
-                            <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="w-50">
-                            <h5 class="mt-3">CSS</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-2">
-                    <div>
-                        <div class="shadow card-con text-center p-3 mt-3">
-                            <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png" class="w-50">
-                            <h5 class="mt-3">Bootstrap</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-2">
-                    <div>
-                        <div class="shadow card-con text-center p-3 mt-3">
-                            <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/portfolio-skills-js-img.png" class="w-50">
-                            <h5 class="mt-3">JS</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-2">
-                    <div>
-                        <div class="shadow card-con text-center p-3 mt-3">
-                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/3840px-Python-logo-notext.svg.png" class="w-50">
-                            <h5 class="mt-3">Python</h5>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-6 col-md-2">
-                    <div>
-                        <div class="shadow card-con text-center p-3 mt-3">
-                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFRo0Y8B-K-skRKINQNGB_LQz029Cf9VEcsw&s" class="w-50">
-                            <h5 class="mt-3">SQLite</h5>
-                        </div>
-                    </div>
-                </div>
-
-  
 
             </div>
-                 </div>
-                </div>
-                </section>
 
-                <!--Footer Section -->
-                <section id="contact">
-                <footer>
-                <div class="bg-footer text-white pt-5 pb-5">
-                    <div class="container">
-                        <div class="row">
-                        
-                            <div class="col-12 col-md-3">
-                                <div class="d-flex flex-row m-2">
-                                    <img src="https://res.cloudinary.com/dwzbboboh/image/upload/v1773478718/Wrb_le3qkl.png" class="image-cont">
-                                    <div class="ml-2">
-
-                                        <h4>Pragatheeshwaran</h4>
-                                        <p>Frontend Developer</p>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-3">
-                                <div class="m-2">
-                                    <h4>Phone No.</h4>
-                                    <p><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="ic bi bi-telephone-fill mr-3" viewBox="0 0 16 16">
-                                            <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.68.68 0 0 0 .178.643l2.457 2.457a.68.68 0 0 0 .644.178l2.189-.547a1.75 1.75 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.6 18.6 0 0 1-7.01-4.42 18.6 18.6 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877z" />
-                                        </svg>8838560402</p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-3">
-                                <div class="m-2">
-                                    <h4>Email</h4>
-                                    <p><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-envelope-fill mr-3" viewBox="0 0 16 16">
-                                            <path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414zM0 4.697v7.104l5.803-3.558zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586zm3.436-.586L16 11.801V4.697z" />
-                                        </svg>pragatheesh2002@gmail.com</p>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-3">
-                                <div class="m-2">
-                                    <h4>Address</h4>
-                                    <p><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="mr-3 bi bi-geo-alt-fill" viewBox="0 0 16 16">
-                                            <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10m0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6" />
-                                        </svg>106,Bohar Salai, Adivaram, Palani - 624 601.</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-footer text-white fot">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="text-center m-2">
-                                    <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-c-circle" viewBox="0 0 16 16">
-                                            <path d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8.146 4.992c-1.212 0-1.927.92-1.927 2.502v1.06c0 1.571.703 2.462 1.927 2.462.979 0 1.641-.586 1.729-1.418h1.295v.093c-.1 1.448-1.354 2.467-3.03 2.467-2.091 0-3.269-1.336-3.269-3.603V7.482c0-2.261 1.201-3.638 3.27-3.638 1.681 0 2.935 1.054 3.029 2.572v.088H9.875c-.088-.879-.768-1.512-1.729-1.512" />
-                                        </svg>2020 by Pragatheeshwaran. Created with Bootstrap</p>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                </footer>
-                </section>
-
-            
         </div>
-        
-    </div>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+
+        <div class="container">
+            <div class="row align-items-center">
+
+                <div class="col-12 col-md-6 order-2 order-md-1">
+
+                    <div class="hero-content">
+
+                        <h1 class="hero-title">
+                            Pragathe<span class="highlight">esh</span>
+                        </h1>
+
+                        <p class="hero-para">
+                            Frontend Developer passionate about building responsive and modern websites using HTML, CSS, Bootstrap and JavaScript.
+                        </p>
+
+                        <button class="hero-btn">
+                            View My Work
+                        </button>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-6 order-1 order-md-2 text-center">
+
+                    <img
+                        src="https://res.cloudinary.com/dwzbboboh/image/upload/v1773478718/Wrb_le3qkl.png"
+                        class="img-fluid hero-img"
+                        alt="profile"
+                    />
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Marquee Section -->
+    <section class="marquee-section">
+
+        <div class="marquee-track">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Bootstrap</span>
+            <span>Tailwind CSS</span>
+            <span>JavaScript</span>
+            <span>Responsive Design</span>
+
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Bootstrap</span>
+            <span>Tailwind CSS</span>
+            <span>JavaScript</span>
+            <span>Responsive Design</span>
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5 bg-white">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-12 col-md-6 mb-4">
+
+                    <h5 class="about-small">ABOUT ME</h5>
+
+                    <h1 class="about-title">
+                        Who I <span class="highlight">Am</span>
+                    </h1>
+
+                </div>
+
+                <div class="col-12 col-md-6">
+
+                    <p class="about-para">
+                        I am a passionate Frontend Developer with strong knowledge in HTML, CSS, Bootstrap, Tailwind CSS and JavaScript.
+                    </p>
+
+                    <p class="about-para">
+                        I enjoy creating responsive and user-friendly websites that work smoothly across all devices.
+                    </p>
+
+                    <div class="education-card">
+                        <h4>B.Tech AI & DS</h4>
+                        <p>EASA College of Engineering & Technology</p>
+                        <span>2020 - 2024</span>
+                    </div>
+
+                    <div class="education-card">
+                        <h4>HSC</h4>
+                        <p>CGM Higher Secondary School</p>
+                        <span>2019 - 2020</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section py-5">
+
+        <div class="container">
+
+            <h1 class="text-white mb-5 text-center">Skills</h1>
+
+            <div class="row g-4">
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="skill-card text-center">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/portfolio-skills-html-img.png" class="skill-img">
+                        <h5 class="mt-3">HTML</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="skill-card text-center">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/portfolio-skills-css-img.png" class="skill-img">
+                        <h5 class="mt-3">CSS</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="skill-card text-center">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/portfolio-skills-bootstrap-img.png" class="skill-img">
+                        <h5 class="mt-3">Bootstrap</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="skill-card text-center">
+                        <img src="https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/portfolio-skills-js-img.png" class="skill-img">
+                        <h5 class="mt-3">JavaScript</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="skill-card text-center">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg" class="skill-img">
+                        <h5 class="mt-3">Tailwind</h5>
+                    </div>
+                </div>
+
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="skill-card text-center">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" class="skill-img">
+                        <h5 class="mt-3">Python</h5>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-5 bg-light">
+
+        <div class="container">
+
+            <h1 class="text-center mb-5">Projects</h1>
+
+            <div class="row g-4">
+
+                <div class="col-12 col-md-4">
+
+                    <div class="card project-card h-100 shadow">
+
+                        <img src="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=1200&auto=format&fit=crop"
+                            class="card-img-top"
+                            alt="project">
+
+                        <div class="card-body">
+
+                            <h4>Photography Website</h4>
+
+                            <p>
+                                Responsive photography portfolio website using Bootstrap and custom CSS.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-4">
+
+                    <div class="card project-card h-100 shadow">
+
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format&fit=crop"
+                            class="card-img-top"
+                            alt="project">
+
+                        <div class="card-body">
+
+                            <h4>Portfolio Website</h4>
+
+                            <p>
+                                Personal responsive portfolio developed using Bootstrap and Tailwind CSS.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-4">
+
+                    <div class="card project-card h-100 shadow">
+
+                        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop"
+                            class="card-img-top"
+                            alt="project">
+
+                        <div class="card-body">
+
+                            <h4>Student Management</h4>
+
+                            <p>
+                                Simple frontend project for managing student information and records.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="footer-section">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-12 text-center">
+
+                    <h2>Contact Me</h2>
+
+                    <p class="mt-3">
+                        Email: pragatheesh2002@gmail.com
+                    </p>
+
+                    <p>
+                        Phone: 8838560402
+                    </p>
+
+                    <p>
+                        Palani, Tamil Nadu
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 </html>
